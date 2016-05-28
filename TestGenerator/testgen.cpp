@@ -10,10 +10,10 @@ int main() {
 	srand(time(NULL));
 
 	for (unsigned long int i=1;i<=1000000;i++) {
-
-		printf("%lu\n",mt_rand());
-		
+		int a = rand() % 2;
+		if (a) printf("-%lu\n",mt_rand());
+		else printf("%lu\n",mt_rand());
 	}
-
+	
 	return 0;
 }
