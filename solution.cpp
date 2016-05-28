@@ -48,6 +48,14 @@ int main() {
 			fscanf(readTemp,"%lld",&temp);
 		}
 	}
+	if (t<MX) {
+		for (unsigned int i=t;i<a.size();i++)	// Output the rest
+			cout<<a[i]<<endl;
+	} else {
+		while (fscanf(readTemp,"%lld",&temp))	// Output the rest
+			cout<<temp<<endl;
+	}
+	/* end of Step 3*/
 	
 
 	return 0;	
