@@ -24,6 +24,12 @@ int main() {
 
 	/* Step 2: Read the rest of the input data, still 2MB */
 	a.erase(a.begin(),a.begin()+a.size());
+	t = MX;
+	while(t--) {
+		cin>>temp;
+		a.push_back(temp);
+	}
+	sort(a.begin(),a.begin()+a.size());
 
 	return 0;	
 }
