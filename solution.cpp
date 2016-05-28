@@ -36,6 +36,18 @@ int main() {
 	t = 0;
 	fclose(tempFile);
 	FILE *readTemp = fopen("temp.txt","r");
+	// Merge
+	long int j = 0;
+	fscanf(readTemp,"%lld",&temp);	
+	while (t<MX&&j<MX) {	// t and j as iterator
+		if (a[t]<temp) {
+			cout<<a[t++]<<endl;
+		} else {
+			cout<<temp<<endl;
+			j++;
+			fscanf(readTemp,"%lld",&temp);
+		}
+	}
 	
 
 	return 0;	
