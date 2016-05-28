@@ -1,0 +1,1 @@
+Because i generate the pure unsigned 32bit int so that i must add some condition and use char "-" for the case of signed int. All of these cause the self-implemented input data takes up to over 10MB, more than the ideal size of 4MB(32bit*1million). But i dont my cause this is the local test for my solution to the problem, the algorithm and idea is much more important.
