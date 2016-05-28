@@ -22,6 +22,9 @@ int main() {
 		fprintf(tempFile,"%ld\n",a[i]);		// ..we'll use later
 	/* end of Step 1 */
 
+	/* Step 2: Read the rest of the input data, still 2MB */
+	a.erase(a.begin(),a.begin()+a.size());
+
 	return 0;	
 }
 
