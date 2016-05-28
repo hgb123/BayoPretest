@@ -30,6 +30,13 @@ int main() {
 		a.push_back(temp);
 	}
 	sort(a.begin(),a.begin()+a.size());
+	/* end of Step 2 */
+
+	/* Step 3: Let's solve */
+	t = 0;
+	fclose(tempFile);
+	FILE *readTemp = fopen("temp.txt","r");
+	
 
 	return 0;	
 }
