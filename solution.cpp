@@ -57,6 +57,8 @@ int main() {
 	}
 	/* end of Step 3*/
 	
+	fclose(tempFile);
+	remove("temp.txt");
 
 	return 0;	
 }
