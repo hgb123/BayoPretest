@@ -18,6 +18,9 @@ int main() {
 		a.push_back(temp);
 	}
 	sort(a.begin(),a.begin()+a.size()); // Sort it using function in STL algorithm.h
+	for (unsigned int i=0;i<a.size();i++)	// Save into a temporary file
+		fprintf(tempFile,"%ld\n",a[i]);		// ..we'll use later
+	/* end of Step 1 */
 
 	return 0;	
 }
