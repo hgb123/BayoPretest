@@ -1,4 +1,8 @@
 # Bayo Pretest
+
+###Status:
+Failed.
+
 ###Problem: 
 Sort 1 million signed 32-bit integers using 3MB of memory.
 
